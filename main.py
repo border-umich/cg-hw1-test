@@ -14,7 +14,7 @@ scene_config = {
     "width": 800,
     "height": 800
   },
-  "obj": "obj/monkeys",
+  "obj": "monkeys",
   "output": "output",
   "camera": {
     "pos": [0.0, 0.0, 5.0],
