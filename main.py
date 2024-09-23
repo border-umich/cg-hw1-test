@@ -58,12 +58,12 @@ def main():
   
 
 def genVideo(time: float, fps: float):
-  container = av.open("output.webp", mode="w")
-  stream = container.add_stream("libwebp", rate=fps)
+  container = av.open("output.mp4", mode="w")
+  stream = container.add_stream("libx264", rate=fps)
   stream.width = width
   stream.height = height
   stream.pix_fmt = "yuv420p"
-  
+
   frames = int(time*fps)
   for i in range(frames):
     print(f"Frame {i+1}/{frames}")
