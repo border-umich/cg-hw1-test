@@ -28,6 +28,12 @@ This repository provides a video generation test case for the EECS 598 rasterize
    pip install -r requirements.txt
    ```
 
+5. **Run the generator:**
+
+   ```bash
+   python main.py -t {time} -f {framerate}
+   ```
+
 ## Convert Output to WebP (Optional)
 
 If you'd like to share your output on Piazza or similar platforms, you can convert your MP4 video to a WebP animation.
