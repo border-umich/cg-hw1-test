@@ -2,3 +2,4 @@ pyyaml
 av
 numpy
 argparse
+pillow
